@@ -1,4 +1,4 @@
-import Algorithms.*;
+import Sort.*;
 import Utils.*;
 
 
