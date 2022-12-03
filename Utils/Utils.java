@@ -28,12 +28,7 @@ public class Utils {
      */
     public static void arrprint(double[] arr)
     {
-        for (int i = 0; i < arr.length - 1; i++)
-        {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.print(arr[arr.length - 1]);
-        System.out.println();
+        arrprint(arr, " ", "\n");
     }
 
 
@@ -44,12 +39,7 @@ public class Utils {
      */
     public static void arrprint(double[] arr, String sep)
     {
-        for (int i = 0; i < arr.length - 1; i++)
-        {
-            System.out.print(arr[i] + sep);
-        }
-        System.out.print(arr[arr.length - 1]);
-        System.out.println();
+        arrprint(arr, sep, "\n");
     }
 
 
